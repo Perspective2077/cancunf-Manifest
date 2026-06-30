@@ -1,0 +1,46 @@
+<manifest>
+  <!-- Remote for sarthakroy2002 -->
+  <remote name="sarth" fetch="https://github.com/sarthakroy2002"/>
+  <!-- Remote for YAAP -->
+  <remote name="yaap" fetch="https://github.com/yaap"/>
+  <!-- Remote for Kernel -->
+  <remote name="pers" fetch="https://github.com/Perspective2077"/>
+  <!-- Remote for cyberknight777 -->
+  <remote name="main2" fetch="https://github.com/cyberknight777"/>
+
+  <!-- Device tree -->
+  <project path="device/motorola/cancunf"
+           name="device_motorola_cancunf"
+           remote="sarth"
+           revision="sixteen-qpr2"/>
+
+  <!-- Kernel -->
+  <project path="device/motorola/cancunf-kernel"
+         name="Perspective2077/Cancunf-Kernel"
+         remote="pers"
+         revision="main"/>
+
+  <!-- Vendor blobs -->
+  <project path="vendor/motorola/cancunf"
+           name="vendor_motorola_cancunf"
+           remote="sarth"
+           revision="sixteen-qpr2"/>
+
+  <!-- DisplayFeatures app -->
+  <project path="packages/apps/DisplayFeatures"
+           name="android_packages_apps_DisplayFeatures"
+           remote="main2"
+           revision="master"/>
+
+  <!-- Mediatek HALs -->
+  <project path="hardware/mediatek"
+           name="hardware_mediatek"
+           remote="yaap"
+           revision="sixteen"/>
+
+  <!-- Mediatek SEPolicy -->
+  <project path="device/mediatek/sepolicy_vndr"
+           name="device_mediatek_sepolicy_vndr"
+           remote="yaap"
+           revision="sixteen"/>
+</manifest>
