@@ -11,12 +11,12 @@
   <!-- Device tree -->
   <project path="device/motorola/cancunf"
            name="device_motorola_cancunf"
-           remote="sarth"
+           remote="pers"
            revision="sixteen-qpr2"/>
 
   <!-- Kernel -->
   <project path="device/motorola/cancunf-kernel"
-         name="Perspective2077/Cancunf-Kernel"
+         name="Cancunf-Kernel"
          remote="pers"
          revision="main"/>
 
